@@ -1,18 +1,21 @@
-import React from 'react';
-import './App.css';
-import Button from '@mui/material/Button';
+import * as React from 'react'
+import './App.css'
+import Container from '@mui/material/Container'
+import Box from '@mui/material/Box'
+import Tabs from './components/Tabs'
+import Header from './components/Header'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          David LiaBraaten | Web Developer
-        </p>
-        <Button variant="contained">Hello world</Button>
-      </header>
-    </div>
-  );
+    return (
+        <Box
+            sx={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}
+        >
+            <Container maxWidth="lg">
+                <Header />
+                <Tabs />
+            </Container>
+        </Box>
+    )
 }
 
-export default App;
+export default App
