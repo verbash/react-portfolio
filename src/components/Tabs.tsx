@@ -3,6 +3,10 @@ import Tabs from '@mui/material/Tabs'
 import Tab from '@mui/material/Tab'
 import Typography from '@mui/material/Typography'
 import Box from '@mui/material/Box'
+import About from './About'
+import Certification from './Certs'
+import Projects from './Projects'
+import Container from '@mui/material/Container'
 
 interface TabPanelProps {
     children?: React.ReactNode
@@ -44,6 +48,12 @@ export default function Header() {
         setValue(newValue)
     }
 
+    const tabContent = [
+        { id: 0, content: 'Projects', component: <Projects /> },
+        { id: 1, content: 'Certification', component: <Certification /> },
+        { id: 2, content: 'About Me', component: <About /> },
+    ]
+
     return (
         <Box sx={{ width: '100%' }}>
             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
@@ -52,20 +62,25 @@ export default function Header() {
                     onChange={handleChange}
                     aria-label="basic tabs example"
                 >
-                    <Tab label="Item One" {...a11yProps(0)} />
-                    <Tab label="Item Two" {...a11yProps(1)} />
-                    <Tab label="Item Three" {...a11yProps(2)} />
+                    {tabContent.map((tab) => (
+                        <Tab label={tab.content} {...a11yProps(tab.id)} />
+                    ))}
                 </Tabs>
             </Box>
-            <CustomTabPanel value={value} index={0}>
-                Item One
-            </CustomTabPanel>
-            <CustomTabPanel value={value} index={1}>
-                Item Two
-            </CustomTabPanel>
-            <CustomTabPanel value={value} index={2}>
-                Item Three
-            </CustomTabPanel>
+            {tabContent.map((tab) => (
+                <CustomTabPanel value={value} index={tab.id}>
+                    <Container
+                        sx={{
+                            display: 'flex',
+                            flexDirection: 'column',
+                            alignItems: 'center',
+                            textAlign: 'left',
+                        }}
+                    >
+                        {tab.component}
+                    </Container>
+                </CustomTabPanel>
+            ))}
         </Box>
     )
 }
