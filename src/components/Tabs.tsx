@@ -26,7 +26,7 @@ function CustomTabPanel(props: TabPanelProps) {
             {...other}
         >
             {value === index && (
-                <Box sx={{ p: 3 }}>
+                <Box>
                     <Typography>{children}</Typography>
                 </Box>
             )}
@@ -50,7 +50,7 @@ export default function Header() {
 
     const tabContent = [
         { id: 0, content: 'Projects', component: <Projects /> },
-        { id: 1, content: 'Certification', component: <Certification /> },
+        { id: 1, content: 'Certification', component: <Certification /> }, // something else instead of Certification
         { id: 2, content: 'About Me', component: <About /> },
     ]
 
@@ -69,7 +69,7 @@ export default function Header() {
             </Box>
             {tabContent.map((tab) => (
                 <CustomTabPanel value={value} index={tab.id}>
-                    <Container
+                    <Box
                         sx={{
                             display: 'flex',
                             flexDirection: 'column',
@@ -78,7 +78,7 @@ export default function Header() {
                         }}
                     >
                         {tab.component}
-                    </Container>
+                    </Box>
                 </CustomTabPanel>
             ))}
         </Box>

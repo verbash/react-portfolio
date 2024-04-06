@@ -24,7 +24,6 @@ export default function Header() {
             }}
         >
             <h3>David LiaBraaten | Web Developer</h3>
-            <Button variant="contained">Hello world</Button>
             <Avatar alt="David LiaBraaten" src="/android-chrome-192x192.png" />
         </Box>
     )

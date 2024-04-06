@@ -1,10 +1,18 @@
 import React from 'react'
-import { Container } from '@mui/material'
+import Container from '@mui/material/Container'
+import ProjectGrid from './ProjectGrid'
 
 const Projects: React.FC = () => {
     return (
-        <Container>
+        <Container
+            sx={{
+                width: '100%',
+                backgroundColor: 'lightblue',
+                paddingBottom: '20px',
+            }}
+        >
             <h2>Projects</h2>
+            <ProjectGrid />
         </Container>
     )
 }
