@@ -1,9 +1,6 @@
 import React from 'react'
 import Box from '@mui/material/Box'
-import Button from '@mui/material/Button'
-import Stack from '@mui/material/Stack'
 import Avatar from '@mui/material/Avatar'
-// import davidProfileImage from '/public/android-chrome-192x192.png'
 
 export default function Header() {
     return (
@@ -24,7 +21,7 @@ export default function Header() {
             }}
         >
             <h3>David LiaBraaten | Web Developer</h3>
-            <Avatar alt="David LiaBraaten" src="/android-chrome-192x192.png" />
+            <Avatar alt="David LiaBraaten" src="/image/profile-192x192.png" />
         </Box>
     )
 }

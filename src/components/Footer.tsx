@@ -8,23 +8,36 @@ const Footer: React.FC = () => {
     return (
         <Box
             sx={{
-                backgroundColor: '#666',
-                color: '#fff',
+                backgroundColor: '#CCC',
+                color: '#111',
                 padding: '2rem',
                 width: '100%',
+                textAlign: 'left',
             }}
         >
-            <Grid container spacing={2} alignItems="center">
-                <Grid item xs={12} sm={6}>
-                    {/* Contact Info */}
-                    <p>Contact Info</p>
+            <Grid
+                container
+                spacing={2}
+                alignItems="center"
+                justifyContent="left"
+            >
+                <Grid item xs={12} sm={5} lg={3}>
+                    {/* /* Contact Info */}
+                    <p>David LiaBraaten | Web Developer</p>
+                    <a href="mailto:davidliabraaten@gmail.com">
+                        davidliabraaten@gmail.com
+                    </a>
                 </Grid>
-                <Grid item xs={12} sm={6}>
+                <Grid item xs={12} sm={5} lg={3}>
                     {/* Social Icons */}
-                    <IconButton>
+                    <IconButton
+                        href={'https://www.linkedin.com/in/david-liabraaten/'}
+                    >
                         <LinkedInIcon />
                     </IconButton>
-                    <IconButton>
+                    <IconButton
+                        href={'https://github.com/verbash/react-portfolio'}
+                    >
                         <GitHubIcon />
                     </IconButton>
                 </Grid>

@@ -1,0 +1,136 @@
+[
+    {
+        "title": "Tarot.com",
+        "subtitle": "Front-End Developer for Tarot.com",
+        "description": "Principal Front-End developer for premier divination website Tarot.com.  Modern features in Preact/Redux/Webpack built on a legacy PHP middleware with Twig templating.  Custom CSS library with Sass.  Developed, Maintainanced, Migrated and Debuged full-stack including custom microservices in Django/Python and a CMS in Drupal/Wagtail.  Specialist for Ad Tech and GDPR/CCPA CMP complaince technologies.",
+        "img": "/image/tarotcardpage.png",
+        "imgalt": "Tarot.com cards page",
+        "links": {
+            "site": "https://www.tarot.com/"
+        },
+        "year": "2019-2024",
+        "tags": [
+            "PHP",
+            "Twig",
+            "Preact",
+            "Redux",
+            "Redux Saga",
+            "Webpack",
+            "Sass",
+            "CSS",
+            "HTML",
+            "Javascript",
+            "Drupal",
+            "Django",
+            "Python",
+            "Wagtail",
+            "CMS",
+            "API"
+        ],
+        "media": []
+    },
+    {
+        "title": "Pretty Punks",
+        "subtitle": "React Website for NFT Project",
+        "description": "Core Developer for NFT Project Pretty Punks on NEAR Protocol Blockchain.  Built website in React, leveraging Contentful MicroCMS using GraphQL for team contributors to edit website copy.  Used IPFS and the Paras.id Marketplace API to display Graphics for tokenized pfp collectables.",
+        "img": "/image/prettypunksclub.png",
+        "imgalt": "Pretty Punks Website",
+        "links": {
+            "site": "https://www.prettypunks.club/",
+            "github": "https://github.com/verbash/pretty-punks"
+        },
+        "year": "2022",
+        "tags": [
+            "React",
+            "GraphQL",
+            "IPFS",
+            "CMS",
+            "API",
+            "Web3"
+        ],
+        "media": []
+    },
+    {
+        "title": "BooHue App",
+        "subtitle": "React Native App for IOS and Android.",
+        "description": "Cofounder of Palace Logic, developer of BooHue App for IOS and Android.  Designed and coded interface, recorded custom sound effects and music for Halloween-themed app leveraging Phillips Hue API for IoT controlled lighting. Managed IOS and Android builds in Expo for Apple and Google Play stores.",
+        "img": "/image/galaxy8aboohue.png",
+        "imgalt": "BooHue App",
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=zI7KBpM48zc"
+        },
+        "year": "2019",
+        "tags": [
+            "React Native",
+            "IOS",
+            "Android",
+            "Expo",
+            "Hue API",
+            "IoT"
+        ],
+        "media": []
+    },
+    {
+        "title": "Tarot AR Filter",
+        "subtitle": "Meta AR Filter for Tarot.com",
+        "description": "Created AR filter for Meta properties (Instagram/FaceBook) to promote Tarot.com divination website.  Developed and tested in Spark AR as well as Digital Asset Management of images and copy.",
+        "img": "/image/tarotarfilter.png",
+        "imgalt": "Tarot AR Filter",
+        "links": {
+            "site": "https://www.instagram.com/ar/1119526505629496/"
+        },
+        "year": "2022",
+        "tags": [
+            "Spark AR"
+        ],
+        "media": []
+    },
+    {
+        "title": "WhackHRMS JS Game",
+        "subtitle": "Javascript Game for NEAR Protocol NFT",
+        "description": "Javascript game to promote NEAR Protocol NFT character 'HRMS'.  Managed sprite assets and coded javascript game interface and scoring system.",
+        "img": "/image/whackHRMSgame.png",
+        "imgalt": "WhackHRMS JS Game",
+        "links": {},
+        "year": "2022",
+        "tags": [
+            "Javascript",
+            "CSS",
+            "HTML"
+        ],
+        "media": []
+    },
+    {
+        "title": "Welcome Email Series",
+        "subtitle": "Automated Email Series for Tarot.com",
+        "description": "Developed Welcome Email Series for Tarot.com in Cordial platform using Email HTML, CSS and Smarty templating language.  Automated personalized email content and images for each contact using API endpoints and advanced Smarty logic.  Used Litmus testing platform, specialized CSS and real-device testing for cross-browser and email client compatibliity.",
+        "img": "/image/welcomeemailseries.png",
+        "imgalt": "Welcome Email",
+        "links": {},
+        "year": "2024",
+        "tags": [
+            "Email HTML",
+            "CSS",
+            "Smarty",
+            "API"
+        ],
+        "media": []
+    },
+    {
+        "title": "Decentraland Gallery",
+        "subtitle": "Web3 Gallery in Decentraland",
+        "description": "Web3 gallery in popular MetaVerse Platform Decentraland.  'The Whale' displays NFT art on Etherium from indie art collective 'Fung Haus'.  Used Decentraland Builder for virual gallery, assisted artists in minting collectables on OpenSea marketplace & IPFS (Inter-Planetary File System) to link to art in the virtual gallery.",
+        "img": "/image/decentralandgallery.png",
+        "imgalt": "Decentraland Gallery",
+        "links": {
+            "site": "https://decentraland.org/play/?realm=main&position=-112%2C-102&island=default1akv"
+        },
+        "year": "2021",
+        "tags": [
+            "Decentraland Builder",
+            "IPFS",
+            "Web3"
+        ],
+        "media": []
+    }
+]

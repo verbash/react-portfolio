@@ -4,7 +4,7 @@ import Tab from '@mui/material/Tab'
 import Typography from '@mui/material/Typography'
 import Box from '@mui/material/Box'
 import About from './About'
-import Certification from './Certs'
+import Contact from './Contact'
 import Projects from './Projects'
 import Container from '@mui/material/Container'
 
@@ -50,8 +50,8 @@ export default function Header() {
 
     const tabContent = [
         { id: 0, content: 'Projects', component: <Projects /> },
-        { id: 1, content: 'Certification', component: <Certification /> }, // something else instead of Certification
-        { id: 2, content: 'About Me', component: <About /> },
+        { id: 1, content: 'About Me', component: <About /> },
+        { id: 2, content: 'Contact', component: <Contact /> },
     ]
 
     return (

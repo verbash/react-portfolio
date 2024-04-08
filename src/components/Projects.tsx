@@ -7,7 +7,6 @@ const Projects: React.FC = () => {
         <Container
             sx={{
                 width: '100%',
-                backgroundColor: 'lightblue',
                 paddingBottom: '20px',
             }}
         >
