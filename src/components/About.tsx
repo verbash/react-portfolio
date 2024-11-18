@@ -31,18 +31,18 @@ const About: React.FC = () => {
             </p>
             <h3>Life</h3>
             <p>
-                I am a dedicated husband and father of two, and I am passionate
-                about music, technology, and the great outdoors. I love spending
-                time with my family, playing guitar, and exploring the beautiful
-                Pacific Northwest. I enjoy immersing myself in the natural
-                wonders of the region running, hiking, or bicycle riding. I am
-                also a dedicated musician and have been singing, playing guitar
-                and synthesizer, and producing music for over 20 years. My love
-                for music extends beyond playing; I am also an avid collector of
-                vinyl records and enjoy discovering new music and artists. I am
-                a lifelong learner and am always seeking new opportunities to
-                expand my knowledge and skills. I am excited about the future
-                and look forward to the adventures that lie ahead.
+                I am passionate about music, technology, and the great outdoors.
+                I love spending time with my family, playing guitar, and
+                exploring the beautiful Pacific Northwest. I enjoy immersing
+                myself in the natural wonders of the region running, hiking, or
+                bicycle riding. I am also a dedicated musician and have been
+                singing, playing guitar and synthesizer, and producing music for
+                over 20 years. My love for music extends beyond playing; I am
+                also an avid collector of vinyl records and enjoy discovering
+                new music and artists. I am a lifelong learner and am always
+                seeking new opportunities to expand my knowledge and skills. I
+                am excited about the future and look forward to the adventures
+                that lie ahead.
             </p>
         </Container>
     )

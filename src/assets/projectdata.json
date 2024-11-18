@@ -1,5 +1,26 @@
 [
     {
+        "title": "IService",
+        "subtitle": "Web / Mobile Developer for DealerBuilt",
+        "description": "Lead Developer for React Web and Android React/Capacitor App: IService, a Video Recording App for Dealership DMS service suite.",
+        "img": "/image/iserviceimage.png",
+        "imgalt": "IService Mobile App",
+        "links": {
+            "site": "https://iserviceauto.com/products/#iservice "
+        },
+        "year": "2023-2024",
+        "tags": [
+            "Android",
+            "Typescript",
+            "React",
+            "Capacitor",
+            "Gradle",
+            "Redux",
+            "Java"
+        ],
+        "media": []
+    },
+    {
         "title": "Tarot.com",
         "subtitle": "Front-End Developer for Tarot.com",
         "description": "Principal Front-End developer for premier divination website Tarot.com.  Modern features in Preact/Redux/Webpack built on a legacy PHP middleware with Twig templating.  Custom CSS library with Sass.  Developed, Maintainanced, Migrated and Debuged full-stack including custom microservices in Django/Python and a CMS in Drupal/Wagtail.  Specialist for Ad Tech and GDPR/CCPA CMP complaince technologies.",
@@ -40,14 +61,7 @@
             "github": "https://github.com/verbash/pretty-punks"
         },
         "year": "2022",
-        "tags": [
-            "React",
-            "GraphQL",
-            "IPFS",
-            "CMS",
-            "API",
-            "Web3"
-        ],
+        "tags": ["React", "GraphQL", "IPFS", "CMS", "API", "Web3"],
         "media": []
     },
     {
@@ -60,14 +74,7 @@
             "youtube": "https://www.youtube.com/watch?v=zI7KBpM48zc"
         },
         "year": "2019",
-        "tags": [
-            "React Native",
-            "IOS",
-            "Android",
-            "Expo",
-            "Hue API",
-            "IoT"
-        ],
+        "tags": ["React Native", "IOS", "Android", "Expo", "Hue API", "IoT"],
         "media": []
     },
     {
@@ -80,9 +87,7 @@
             "site": "https://www.instagram.com/ar/1119526505629496/"
         },
         "year": "2022",
-        "tags": [
-            "Spark AR"
-        ],
+        "tags": ["Spark AR"],
         "media": []
     },
     {
@@ -93,11 +98,7 @@
         "imgalt": "WhackHRMS JS Game",
         "links": {},
         "year": "2022",
-        "tags": [
-            "Javascript",
-            "CSS",
-            "HTML"
-        ],
+        "tags": ["Javascript", "CSS", "HTML"],
         "media": []
     },
     {
@@ -108,12 +109,7 @@
         "imgalt": "Welcome Email",
         "links": {},
         "year": "2024",
-        "tags": [
-            "Email HTML",
-            "CSS",
-            "Smarty",
-            "API"
-        ],
+        "tags": ["Email HTML", "CSS", "Smarty", "API"],
         "media": []
     },
     {
@@ -126,11 +122,7 @@
             "site": "https://decentraland.org/play/?realm=main&position=-112%2C-102&island=default1akv"
         },
         "year": "2021",
-        "tags": [
-            "Decentraland Builder",
-            "IPFS",
-            "Web3"
-        ],
+        "tags": ["Decentraland Builder", "IPFS", "Web3"],
         "media": []
     }
 ]
